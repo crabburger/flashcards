@@ -7,7 +7,7 @@
 
   <body>
     <div class="top">
-      <button id="gen" onclick="shuffle()">Shuffle</button>
+      <button class="button button1" id="gen" onclick="shuffle()">Shuffle</button>
       <h1>
         英語をたくさん使いましょう
       </h1>
@@ -103,25 +103,31 @@
         justify-content: left;
       }
 
-      #gen {
-        background-color: navy;
-        width: 80px;
-        height: 40px;
+      .button {
+        background-color: #4CAF50;
+        /* Green */
         border: none;
         color: white;
-        padding: 0px 0px;
+        padding: 6px 32px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        border-radius: .5em;
-        font-size: 10px;
-        margin: 0px 10px;
+        font-size: 20px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
         cursor: pointer;
-        top: 4px;
-        left: 10px;
-        position: absolute;
       }
 
+      .button1 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #f44336;
+      }
+
+      .button1:hover {
+        background-color: #f44336;
+        color: white;
+      }
     </style>
     <script type="text/javascript" src="flashcards.js" charset="UTF-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
