@@ -17,7 +17,7 @@
 
    .stack {
      width: 1050px;
-     height: 600px;
+     height: 750px;
      position: relative;
    }
 
@@ -78,9 +78,6 @@
    .top {
      display: flex;
      justify-content: left;
-
-
-
    }
 
    #gen {
